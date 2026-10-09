@@ -1,6 +1,6 @@
 {
   "name": "bare-wasm",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "WebAssembly JavaScript API for Bare",
   "exports": {
     "./package": "./package.json",
