@@ -1,3 +1,5 @@
+const WebAssembly = globalThis.WebAssembly || require('./lib/unavailable')
+
 exports.Module = WebAssembly.Module
 exports.Instance = WebAssembly.Instance
 exports.Memory = WebAssembly.Memory
