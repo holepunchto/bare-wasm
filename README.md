@@ -23,6 +23,8 @@ The exports mirror the `WebAssembly` namespace of the WebAssembly JavaScript API
 - `CompileError`, `LinkError`, and `RuntimeError`
 - `validate()`, `compile()`, and `instantiate()`
 
+Where the `WebAssembly` global is unavailable, such as when V8 runs without a JIT on iOS, the exports still load, but using them throws an error with the code `WEBASSEMBLY_UNAVAILABLE`.
+
 ## License
 
 Apache-2.0
